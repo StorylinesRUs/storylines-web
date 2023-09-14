@@ -11,7 +11,6 @@
   font-weight: 800;
   text-transform: uppercase;
   overflow: hidden;
-  padding-right: 40px;
 }
 
 .texts:nth-child(odd) {
@@ -23,28 +22,28 @@
 }
 
 .texts:nth-child(1) {
-  left: -50px;
+  left: -66px;
 }
 
 
 .texts:nth-child(2) {
   top: 9px;
-  left: -16px;
+  left: -32px;
 }
 
 .texts:nth-child(3) {
   top: 19px;
-  left: 20px;
+  left: 4px;
 }
 
 .texts:nth-child(4) {
   top: 30px;
-  left: 54px;
+  left: 38px;
 }
 
 .texts:nth-child(5) {
   top: 42px;
-  left: 86px;
+  left: 70px;
 }
 
 .climbing {
