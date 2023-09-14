@@ -1,3 +1,60 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.texts {
+  position: relative;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  font-size: 48px;
+  font-weight: 800;
+  text-transform: uppercase;
+  overflow: hidden;
+  padding-right: 40px;
+}
+
+.texts:nth-child(odd) {
+  transform: skew(60deg, -30deg);
+}
+
+.texts:nth-child(even) {
+  transform: skew(0, -30deg) scaleY(1.5);
+}
+
+.texts:nth-child(1) {
+  left: -50px;
+}
+
+
+.texts:nth-child(2) {
+  top: 9px;
+  left: -16px;
+}
+
+.texts:nth-child(3) {
+  top: 19px;
+  left: 20px;
+}
+
+.texts:nth-child(4) {
+  top: 30px;
+  left: 54px;
+}
+
+.texts:nth-child(5) {
+  top: 42px;
+  left: 86px;
+}
+
+.climbing {
+  transition: 0.5s ease-in-out;
+  animation: climbing 1s linear infinite;
+}
+
+@keyframes climbing {
+  100% {
+    transform: translate(0, -40px);
+  }
+}
+
